@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.header-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Big Shoulders Display;
+}
+.art-gallery-two-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-style {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 17px;
+  font-family: Big Shoulders Display;
+}
+.your-day-at-the-gallery-two-style {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 17px;
+  font-family: Big Shoulders Display;
+}
+.paragraph-style {
+  font-family: Outfit;
+  width: 342px;
+  line-height: 28px;
+  color: #444444;
+}
+.box-style {
+  width: 204px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-right: 103px;
+}
+.arrow-image-style {
+  width: 8px;
+  height: 24px;
+}
+.location-style {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.location-container-style {
+  width: 137px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.arrow-style {
+  background-color: #d5966c;
+  padding: 24px;
+}
+.gallery-images-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.box-two-style {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
+.come-style {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.art-gallery-tablet-style {
+  display: none;
+}
+.paragraph-two-style {
+  font-family: Outfit;
+  width: 342px;
+  line-height: 28px;
+  color: white;
+  margin-left: 14px;
+}
+.title-two-style {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 17px;
+  font-family: Big Shoulders Display;
+  color: white;
+  margin-top: 15px;
+}
+.end-style {
+  background-color: black;
+  margin-top: 40px;
+}
+.title-three-style {
+  color: white;
+  padding: 15px;
+  font-family: Big Shoulders Display;
+}
+.paragraph-three-style {
+  font-family: Outfit;
+  color: white;
+  margin-left: 14px;
+  width: 342px;
+  line-height: 28px;
+}
+.icons-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+.women-men-gallery {
+  display: none;
+}
+.gallery-image-tablet {
+  display: none;
+}
+.gallery-tablet {
+  display: none;
+}
+.logo-light-style {
+  display: none;
+}
+.black-box-style {
+  display: none;
+}
+.logo-dark-style {
+  display: none;
+}
+.gallery-desktop-style {
+  display: none;
+}
+.gallery-image-desktop {
+  display: none;
+}
+.gallery-chair-desktop-style {
+  display: none;
+}
+.art-gallery-desktop-style {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .women-men-gallery {
+    display: block;
+  }
+  .men-gallery-style {
+    display: none;
+  }
+  .header-two-style {
+    display: flex;
+    flex-direction: row;
+  }
+  .gallery-image-mobile {
+    display: none;
+  }
+  .gallery-image-tablet {
+    display: block;
+  }
+  .art-gallery-two-style {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 107px;
+    margin-left: -51px;
+  }
+  .art-gallery-tablet-style {
+    display: block;
+  }
+  .art-gallery-mobile-style {
+    display: none;
+  }
+  .title-style {
+    font-size: 50px;
+  }
+  .your-day-at-the-gallery-style {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+  }
+  .inspired-style {
+    display: flex;
+    flex-direction: row;
+  }
+  .one-day-art-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .gallery-tablet {
+    display: block;
+    margin-left: -82px;
+  }
+  .gallery-mobile {
+    display: none;
+  }
+  .come-style {
+    gap: 40px;
+  }
+  .come-and-be-style {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-left: 15px;
+  }
+  .box-two-style {
+    margin-top: -43px;
+    height: 300px;
+  }
+  .modern-art-gallery-info-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+  }
+  .logo-light-style {
+    display: none;
+  }
+  .black-box-style {
+    display: none;
+  }
+  .logo-dark-style {
+    display: none;
+  }
+  .gallery-desktop-style {
+    display: none;
+  }
+  .gallery-image-desktop {
+    display: none;
+  }
+  .gallery-chair-desktop-style {
+    display: none;
+  }
+  .art-gallery-desktop-style {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .header-style {
+    flex-direction: row;
+    position: relative;
+    align-self: flex-start;
+  }
+  .logo-light-style {
+    display: block;
+    width: 300px;
+    position: absolute;
+    left: 152px;
+    top: 178px;
+  }
+  .title-style {
+    display: block;
+  }
+  .black-box-style {
+    display: block;
+  }
+  .logo-dark-style {
+    display: block;
+    position: absolute;
+    top: 177px;
+    width: 500px;
+    left: 140px;
+  }
+  .box-style {
+    width: 204px;
+    height: 72px;
+  }
+  .box-style:hover .loc-button {
+    background-color: #d5966c;
+  }
+  .box-style:hover .greater-arrow {
+    background-color: #151515;
+  }
+
+  .gallery-desktop-style {
+    display: block;
+  }
+  .title-style {
+    display: none;
+  }
+  .women-men-gallery {
+    display: none;
+  }
+  .black-box-style {
+    width: 450px;
+    height: 800px;
+    background-color: black;
+  }
+  .gallery-image-desktop {
+    display: block;
+    margin-left: 100px;
+  }
+  .gallery-image-tablet {
+    display: none;
+  }
+  .gallery-chair-desktop-style {
+    display: block;
+  }
+  .gallery-tablet {
+    display: none;
+  }
+  .art-gallery-desktop-style {
+    display: block;
+  }
+  .art-gallery-tablet-style {
+    display: none;
+  }
+  .come-style {
+    padding: 20px;
+  }
+  .box-two-style {
+    height: 332px;
+    margin-top: 6px;
+  }
+  .modern-art-gallery-info-style {
+    justify-content: space-around;
+  }
+}
