@@ -47,6 +47,7 @@
   flex-direction: row;
   background-color: black;
   margin-right: 103px;
+  cursor: pointer;
 }
 .arrow-image-style {
   width: 8px;
@@ -278,10 +279,6 @@
     top: 177px;
     width: 500px;
     left: 140px;
-  }
-  .box-style {
-    width: 204px;
-    height: 72px;
   }
   .box-style:hover .loc-button {
     background-color: #d5966c;
