@@ -15,19 +15,20 @@
   flex-direction: row;
   background-color: black;
   gap: 35px;
-  width: 250px;
-  transform: translateY(39px);
+  width: 208px;
+  transform: translateY(72px);
+  cursor: pointer;
 }
 .arrow-two-style {
   background-color: #d5966c;
-  width: 34px;
-  height: 40px;
+  padding: 24px;
 }
 .backtohome-style {
   color: white;
   display: flex;
   align-items: center;
   margin-left: -19px;
+  font-size: 20px;
 }
 .our-location-two-style {
   display: flex;
@@ -94,12 +95,21 @@
 .map-two-style {
   display: none;
 }
+.map-desktop {
+  display: none;
+}
+.link-art {
+  text-decoration: none;
+}
 @media (min-width: 768px) {
   .map-two-style {
     display: block;
   }
   .map-style {
     display: none;
+  }
+  .map-home-style {
+    margin-left: 39px;
   }
   .our-location-two-style {
     display: flex;
@@ -122,5 +132,23 @@
   }
   .logo-light-style {
     margin-top: -37px;
+  }
+  .map-desktop {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .map-desktop {
+    display: block;
+  }
+  .map-home-style {
+    margin-left: 156px;
+  }
+  .map-two-style {
+    display: none;
+  }
+  .modern-two-style {
+    font-size: 25px;
+    margin-left: 52px;
   }
 }

@@ -63,7 +63,8 @@
 }
 .location-container-style {
   width: 137px;
-  height: 24px;
+  color: white;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
