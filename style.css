@@ -52,6 +52,9 @@
   width: 8px;
   height: 24px;
 }
+.link {
+  text-decoration: none;
+}
 .location-style {
   color: white;
   display: flex;
